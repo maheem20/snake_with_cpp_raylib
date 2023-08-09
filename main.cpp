@@ -8,6 +8,7 @@ int main()
 
     cout << "Starting game..." << endl;
     InitWindow(750, 750, "Retro Snake");
+    SetTargetFPS(60);
 
     while (!WindowShouldClose())
     {
