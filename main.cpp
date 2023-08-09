@@ -11,6 +11,8 @@ int cellCount = 25;
 
 class Food
 {
+    public:
+        Vector2 position = {5, 6};
 };
 
 int main()
