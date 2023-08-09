@@ -17,6 +17,8 @@ int main()
     {
         BeginDrawing();
 
+        ClearBackground(green);
+
         EndDrawing();
     }
 
