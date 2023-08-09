@@ -13,10 +13,12 @@ class Food
 {
 public:
     Vector2 position = {5, 6};
+    Texture2D texture;
 
     Food()
     {
         Image image = LoadImage("Graphics/food.png");
+        texture = LoadTextureFromImage(image);
     }
 
     void Draw()
