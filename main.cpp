@@ -34,6 +34,7 @@ int main()
         BeginDrawing();
 
         ClearBackground(green);
+        food.Draw();
 
         EndDrawing();
     }
