@@ -9,6 +9,10 @@ Color darkGreen = {43, 51, 24, 255};
 int cellSize = 30;
 int cellCount = 25;
 
+class Food
+{
+};
+
 int main()
 {
 
