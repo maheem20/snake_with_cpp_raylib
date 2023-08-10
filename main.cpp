@@ -19,6 +19,8 @@ public:
     {
         for (int i = 0; i < body.size(); i++)
         {
+            int x = body[i].x;
+            int y = body[i].y;
         }
     }
 };
