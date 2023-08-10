@@ -21,7 +21,7 @@ public:
         {
             int x = body[i].x;
             int y = body[i].y;
-            DrawRectangle(x * cellSize, y * cellSize, cellSize, cellSize, darkGreen);
+            Rectangle segment = Rectangle{x * cellSize, y * cellSize, cellSize, cellSize};
         }
     }
 };
