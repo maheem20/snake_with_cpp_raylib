@@ -29,7 +29,7 @@ public:
 
     void Draw()
     {
-        DrawRectangle(position.x * cellSize, position.y * cellSize, cellSize, cellSize, darkGreen);
+        DrawTexture(texture, position.x * cellSize, position.y * cellSize, WHITE);
     }
 };
 
