@@ -31,6 +31,10 @@ public:
     {
         DrawTexture(texture, position.x * cellSize, position.y * cellSize, WHITE);
     }
+
+    Vector2 GenerateRandomPos()
+    {
+    }
 };
 
 int main()
