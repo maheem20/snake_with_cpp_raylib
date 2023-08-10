@@ -22,6 +22,11 @@ public:
         UnloadImage(image);
     }
 
+    ~Food()
+    {
+        UnloadTexture(texture);
+    }
+
     void Draw()
     {
         DrawRectangle(position.x * cellSize, position.y * cellSize, cellSize, cellSize, darkGreen);
