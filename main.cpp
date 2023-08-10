@@ -20,6 +20,7 @@ public:
         Image image = LoadImage("Graphics/food.png");
         texture = LoadTextureFromImage(image);
         UnloadImage(image);
+        position = GenerateRandomPos();
     }
 
     ~Food()
