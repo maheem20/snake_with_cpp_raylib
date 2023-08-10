@@ -12,8 +12,15 @@ int cellCount = 25;
 
 class Snake
 {
-    public:
+public:
     deque<Vector2> body = {Vector2{6, 9}, Vector2{5, 9}, Vector2{4, 9}};
+
+    void Draw()
+    {
+        for (int i = 0; i < body.size(); i++)
+        {
+        }
+    }
 };
 
 class Food
