@@ -74,6 +74,7 @@ int main()
 
         ClearBackground(green);
         food.Draw();
+        snake.Draw();
 
         EndDrawing();
     }
