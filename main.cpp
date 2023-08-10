@@ -22,6 +22,7 @@ public:
             int x = body[i].x;
             int y = body[i].y;
             Rectangle segment = Rectangle{x * cellSize, y * cellSize, cellSize, cellSize};
+            DrawRectangleRounded(segment, 0.5, 6, darkGreen);
         }
     }
 };
