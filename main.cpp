@@ -15,6 +15,7 @@ double lastUpdateTime = 0;
 
 bool eventTriggered(double interval)
 {
+    double currentTime = GetTime();
 }
 
 class Snake
