@@ -11,6 +11,8 @@ Color darkGreen = {43, 51, 24, 255};
 float cellSize = 30;
 int cellCount = 25;
 
+double lastUpdateTime = 0;
+
 class Snake
 {
 public:
