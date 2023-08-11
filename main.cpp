@@ -94,7 +94,10 @@ int main()
     {
         BeginDrawing();
 
-        snake.Update();
+        if (eventTriggered(0.2))
+        {
+            snake.Update();
+        }
 
         ClearBackground(green);
         food.Draw();
