@@ -81,6 +81,8 @@ int main()
     {
         BeginDrawing();
 
+        snake.Update();
+
         ClearBackground(green);
         food.Draw();
         snake.Draw();
