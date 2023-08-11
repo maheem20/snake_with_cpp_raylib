@@ -13,6 +13,10 @@ int cellCount = 25;
 
 double lastUpdateTime = 0;
 
+bool eventTriggered(double interval)
+{
+}
+
 class Snake
 {
 public:
