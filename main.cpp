@@ -26,6 +26,12 @@ public:
             DrawRectangleRounded(segment, 0.5, 6, darkGreen);
         }
     }
+
+    void Update()
+    {
+        body.pop_back();
+        body.push_front(Vector2Add(body[0] + direction));
+    }
 };
 
 class Food
