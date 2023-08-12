@@ -96,6 +96,10 @@ public:
     {
         snake.Update();
     }
+
+    void CheckCollisionWithFood()
+    {
+    }
 };
 
 int main()
