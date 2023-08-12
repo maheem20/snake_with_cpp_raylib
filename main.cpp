@@ -13,7 +13,7 @@ int cellCount = 25;
 
 double lastUpdateTime = 0;
 
-bool ElementInDeque()
+bool ElementInDeque(Vector2 element, deque<Vector2> deque)
 {
 }
 
