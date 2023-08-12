@@ -80,6 +80,10 @@ public:
     }
 };
 
+class Game
+{
+};
+
 int main()
 {
 
