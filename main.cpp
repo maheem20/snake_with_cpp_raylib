@@ -83,8 +83,8 @@ public:
 class Game
 {
 public:
-    Snake snake;
-    Food food;
+    Snake snake = Snake();
+    Food food = Food();
 
     void Draw()
     {
