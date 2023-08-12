@@ -82,6 +82,7 @@ public:
 
 class Game
 {
+public:
     Snake snake;
     Food food;
 
