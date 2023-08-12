@@ -134,8 +134,7 @@ int main()
         }
 
         ClearBackground(green);
-        food.Draw();
-        snake.Draw();
+        game.Draw();
 
         EndDrawing();
     }
