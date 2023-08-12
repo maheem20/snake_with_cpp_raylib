@@ -13,6 +13,10 @@ int cellCount = 25;
 
 double lastUpdateTime = 0;
 
+bool ElementInDeque()
+{
+}
+
 bool eventTriggered(double interval)
 {
     double currentTime = GetTime();
