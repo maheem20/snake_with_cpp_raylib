@@ -82,6 +82,8 @@ public:
 
 class Game
 {
+    Snake snake;
+    Food food;
 };
 
 int main()
