@@ -90,6 +90,10 @@ class Game
         snake.Draw();
         food.Draw();
     }
+
+    void Update()
+    {
+    }
 };
 
 int main()
