@@ -72,7 +72,7 @@ public:
         DrawTexture(texture, position.x * cellSize, position.y * cellSize, WHITE);
     }
 
-    Vector2 GenerateRandomPos()
+    Vector2 GenerateRandomPos(deque<Vector2> snakeBody)
     {
         float x = GetRandomValue(0, cellCount - 1);
         float y = GetRandomValue(0, cellCount - 1);
