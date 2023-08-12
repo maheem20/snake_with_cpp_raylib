@@ -76,6 +76,7 @@ public:
     {
         float x = GetRandomValue(0, cellCount - 1);
         float y = GetRandomValue(0, cellCount - 1);
+        Vector2 position = {x, y};
         return Vector2{x, y};
     }
 };
