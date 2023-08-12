@@ -15,6 +15,9 @@ double lastUpdateTime = 0;
 
 bool ElementInDeque(Vector2 element, deque<Vector2> deque)
 {
+    for (unsigned int i = 0; i < deque.size(); i++)
+    {
+    }
 }
 
 bool eventTriggered(double interval)
