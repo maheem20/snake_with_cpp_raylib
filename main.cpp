@@ -99,6 +99,10 @@ public:
 
     void CheckCollisionWithFood()
     {
+        if (Vector2Equals(snake.body[0], food.position))
+        {
+            food.position = food.GenerateRandomPos();
+        }
     }
 };
 
