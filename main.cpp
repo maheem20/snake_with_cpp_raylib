@@ -93,6 +93,7 @@ class Game
 
     void Update()
     {
+        snake.Update();
     }
 };
 
