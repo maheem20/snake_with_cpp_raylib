@@ -84,6 +84,12 @@ class Game
 {
     Snake snake;
     Food food;
+
+    void Draw()
+    {
+        snake.Draw();
+        food.Draw();
+    }
 };
 
 int main()
