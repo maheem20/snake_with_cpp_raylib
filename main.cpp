@@ -127,6 +127,7 @@ public:
     {
         snake.Update();
         CheckCollisionWithFood();
+        CheckCollisionWithEdges();
     }
 
     void CheckCollisionWithFood()
