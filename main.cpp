@@ -122,6 +122,7 @@ class Game
 public:
     Snake snake = Snake();
     Food food = Food(snake.body);
+    bool running = true;
 
     void Draw()
     {
