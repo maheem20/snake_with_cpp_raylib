@@ -150,6 +150,11 @@ public:
             GameOver();
         }
     }
+
+    void GameOver()
+    {
+        snake.Reset();
+    }
 };
 
 int main()
