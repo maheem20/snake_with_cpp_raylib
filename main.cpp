@@ -94,6 +94,11 @@ public:
     Vector2 GenerateRandomPos(deque<Vector2> snakeBody)
     {
         Vector2 position = GenerateRandomCell();
+        while (ElementInDeque(position, snakeBody))
+        {
+            position = GenerateRandomCell();
+        }
+        return position;
     }
 };
 
