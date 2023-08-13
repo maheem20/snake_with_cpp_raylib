@@ -137,6 +137,10 @@ public:
             snake.addSegment = true;
         }
     }
+
+    void CheckCollisionWithEdges()
+    {
+    }
 };
 
 int main()
