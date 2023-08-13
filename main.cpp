@@ -132,9 +132,12 @@ public:
 
     void Update()
     {
-        snake.Update();
-        CheckCollisionWithFood();
-        CheckCollisionWithEdges();
+        if (running)
+        {
+            snake.Update();
+            CheckCollisionWithFood();
+            CheckCollisionWithEdges();
+        }
     }
 
     void CheckCollisionWithFood()
