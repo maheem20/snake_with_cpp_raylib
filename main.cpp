@@ -90,6 +90,10 @@ public:
         float y = GetRandomValue(0, cellCount - 1);
         return Vector2{x, y};
     }
+
+    Vector2 GenerateRandomPos(deque<Vector2> snakeBody)
+    {
+    }
 };
 
 class Game
