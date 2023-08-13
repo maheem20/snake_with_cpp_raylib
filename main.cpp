@@ -56,8 +56,16 @@ public:
 
     void Update()
     {
-        body.pop_back();
+
         body.push_front(Vector2Add(body[0], direction));
+        if (addSegment == true)
+        {
+            addSegment = false;
+        }
+        else
+        {
+            body.pop_back();
+        }
     }
 };
 
