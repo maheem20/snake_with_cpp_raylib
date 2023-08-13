@@ -162,6 +162,7 @@ public:
     {
         snake.Reset();
         food.position = food.GenerateRandomPos(snake.body);
+        running = false;
     }
 };
 
