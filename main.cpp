@@ -66,12 +66,12 @@ public:
     Vector2 position = {5, 6};
     Texture2D texture;
 
-    Food()
+    Food(deque<Vector2> snakeBody)
     {
         Image image = LoadImage("Graphics/food.png");
         texture = LoadTextureFromImage(image);
         UnloadImage(image);
-        position = GenerateRandomPos();
+        position = GenerateRandomPos(snakeBody);
     }
 
     ~Food()
@@ -106,7 +106,7 @@ class Game
 {
 public:
     Snake snake = Snake();
-    Food food = Food();
+    Food food = Food(snake.body);
 
     void Draw()
     {
@@ -124,7 +124,7 @@ public:
     {
         if (Vector2Equals(snake.body[0], food.position))
         {
-            food.position = food.GenerateRandomPos();
+            food.position = food.GenerateRandomPos(snake.body);
         }
     }
 };
