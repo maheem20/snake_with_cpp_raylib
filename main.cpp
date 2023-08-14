@@ -170,6 +170,8 @@ public:
 
     void CheckCollisionWithTail()
     {
+        deque<Vector2> headlessBody = snake.body;
+        headlessBody.pop_front();
     }
 };
 
