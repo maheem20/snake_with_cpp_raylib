@@ -135,6 +135,10 @@ public:
         wallSound = LoadSound("Audio/wall.wav");
     }
 
+    ~Game()
+    {
+    }
+
     void Draw()
     {
         snake.Draw();
