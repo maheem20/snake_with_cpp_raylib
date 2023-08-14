@@ -130,6 +130,9 @@ public:
 
     Game()
     {
+        InitAudioDevice();
+        eatSound = LoadSound("Audio/eat.wav");
+        wallSound = LoadSound("Audio/wall.wav");
     }
 
     void Draw()
