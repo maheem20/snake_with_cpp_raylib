@@ -124,6 +124,7 @@ public:
     Snake snake = Snake();
     Food food = Food(snake.body);
     bool running = true;
+    int score = 0;
 
     void Draw()
     {
