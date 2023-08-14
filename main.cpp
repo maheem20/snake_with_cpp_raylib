@@ -131,8 +131,8 @@ public:
     Game()
     {
         InitAudioDevice();
-        eatSound = LoadSound("Audio/eat.wav");
-        wallSound = LoadSound("Audio/wall.wav");
+        eatSound = LoadSound("Sounds/eat.mp3");
+        wallSound = LoadSound("Sounds/wall.mp3");
     }
 
     ~Game()
