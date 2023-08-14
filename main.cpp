@@ -125,6 +125,8 @@ public:
     Food food = Food(snake.body);
     bool running = true;
     int score = 0;
+    Sound eatSound;
+    Sound wallSound;
 
     void Draw()
     {
