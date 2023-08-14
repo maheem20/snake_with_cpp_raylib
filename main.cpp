@@ -221,6 +221,7 @@ int main()
         }
 
         ClearBackground(green);
+        DrawRectangleLinesEx(Rectangle{offset - 5, offset - 5, cellSize * cellCount + 10, cellSize * cellCount + 10}, 5, darkGreen);
         game.Draw();
 
         EndDrawing();
