@@ -167,6 +167,10 @@ public:
         food.position = food.GenerateRandomPos(snake.body);
         running = false;
     }
+
+    void CheckCollisionWithTail()
+    {
+    }
 };
 
 int main()
