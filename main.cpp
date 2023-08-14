@@ -185,7 +185,7 @@ int main()
 {
 
     cout << "Starting game..." << endl;
-    InitWindow(cellSize * cellCount, cellSize * cellCount, "Retro Snake");
+    InitWindow(2 * offset + cellSize * 2 * offset + cellCount, cellSize * cellCount, "Retro Snake");
     SetTargetFPS(60);
 
     Game game = Game();
