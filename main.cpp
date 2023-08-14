@@ -170,6 +170,7 @@ public:
         snake.Reset();
         food.position = food.GenerateRandomPos(snake.body);
         running = false;
+        score = 0;
     }
 
     void CheckCollisionWithTail()
