@@ -50,7 +50,7 @@ public:
         {
             int x = body[i].x;
             int y = body[i].y;
-            Rectangle segment = Rectangle{x * cellSize, y * cellSize, cellSize, cellSize};
+            Rectangle segment = Rectangle{offset + x * cellSize, offset + y * cellSize, cellSize, cellSize};
             DrawRectangleRounded(segment, 0.5, 6, darkGreen);
         }
     }
@@ -97,7 +97,7 @@ public:
 
     void Draw()
     {
-        DrawTexture(texture, position.x * cellSize, position.y * cellSize, WHITE);
+        DrawTexture(texture, offset + position.x * cellSize, offset + position.y * cellSize, WHITE);
     }
 
     Vector2 GenerateRandomCell()
