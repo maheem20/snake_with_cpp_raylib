@@ -137,6 +137,9 @@ public:
 
     ~Game()
     {
+        UnloadSound(eatSound);
+        UnloadSound(wallSound);
+        CloseAudioDevice();
     }
 
     void Draw()
