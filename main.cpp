@@ -137,6 +137,7 @@ public:
             snake.Update();
             CheckCollisionWithFood();
             CheckCollisionWithEdges();
+            CheckCollisionWithTail();
         }
     }
 
