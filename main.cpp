@@ -128,6 +128,10 @@ public:
     Sound eatSound;
     Sound wallSound;
 
+    Game()
+    {
+    }
+
     void Draw()
     {
         snake.Draw();
